@@ -1,6 +1,26 @@
 SkinnyMinnie::Application.routes.draw do
-  get "home/index"
+  get "dashboard/index"
 
+  get "dashboard/my_rentals"
+
+  get "dashboard/my_credits"
+
+  get "dashboard/my_invites"
+
+  get "dashboard/my_faves"
+
+  get "dashboard/edit_profile"
+
+  get "tsm_home/index"
+
+  devise_for :users
+
+  get "home/index"
+  resources :users
+
+  
+
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

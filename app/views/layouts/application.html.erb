@@ -7,11 +7,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<p class="notice" style="display:none;"><%= notice %></p>
+       <p class="alert" style="display:none;"><%= alert %></p>
 <div class="row-fluid">
   <div class="span12">
-  		<%= nav_bar :brand => "THE SKINNY MINNIE",:responsive => true  %>
+  		<%= nav_bar :brand => "THE SKINNY MINNIE",:responsive => true  	do %>
+  		<% menu_group :pull => :right do %>
+  		<% if user_signed_in? %>
+      <%= drop_down "My Account" do %>
+        <%= menu_item "Dashboard", dashboard_index_path %>
+        <%= drop_down_divider %>
+        <%= menu_item "Logout", destroy_user_session_path, :method => :delete %>
+    <% end %>
+  		 
+  		<% else %>
+  		<%= menu_item "Login", new_user_session_path %>
+  		<% end %>
+
+  		<% end -%>
+  	<% end -%>
 <%= yield %>
-<div class="footer"></div>
   </div>
 </div>
 </body>

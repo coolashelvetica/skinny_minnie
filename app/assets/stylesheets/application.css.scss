@@ -15,15 +15,33 @@
 @import "compass/css3";
 
 
-
 html,body
 {
 	height:100%;
 }
 
+body
+{
+	background: url('bg2.png');
+}
+
 .span12
 {
 	min-height:100%;
+}
+
+
+.navbar
+{
+	.navbar-inner
+	{
+		@include border-radius(0px);
+	}
+
+	.brand
+	{
+		background: url('/assets/logo.png');
+	}
 }
 
 .body
@@ -34,35 +52,64 @@ html,body
 
 }
 
-.footer
-{
-	background-color:$black;
-	width:100%;
-	height:80px;
-	position: relative;
-  margin-top: -80px; /* negative value of footer height */
-  clear:both;
-  padding-top:20px;
-}
 
 .login-box
 {
 	width:720px;
-	height:320px;
+	height:360px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:5%;
+	margin-top:7%;
+	background: url('login-bg.png');
 	border: 1px solid rgba(0,0,0,0.3);
-   	background-color: $white;
     @include box-shadow( 0px 0px 0px 15px rgba(0, 0, 0, 0.3));
 
     .left
     {
-    	width:50%;
-    	height:100%;
-    	
+    	width: 43%;
+		height: 65%;
+		border-right: 1px dotted rgba(0, 0, 0, 0.3);
+		position: relative;
+		margin: 17px 56px 0px 42px;
+
+		h1
+		{
+			font-size: 23px;
+		}
+	}
+
+		.right
+    {
+    	width: 40%;
+		height: 65%;
+		position: relative;
+		margin: 7px 0 0 0;
+
+		h1
+		{
+			font-size: 23px;
+		}
     }
 
+    .shared-links
+    {
+    	display: inline-block;
+    	position: relative;
+		top: -120px;
+		float: right;
+		width: 202px;
+		font-size: 11px;
+		font-style: italic;
+
+    	li
+    	{
+    		list-style: none;
+    		float:left;
+    		padding-right:10px;
+
+    		
+    	}
+    }
 
   	
 }

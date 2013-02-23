@@ -19,6 +19,7 @@ group :assets do
   gem 'rails_bootstrap_navbar'
   gem 'simple_form'
   gem 'country_select'
+  gem 'devise'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

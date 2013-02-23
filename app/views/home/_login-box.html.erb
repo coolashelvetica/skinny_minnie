@@ -1,10 +1,8 @@
 <div class="login-box">
   				<div class="left pull-left">
-  					<%= simple_form_for @user do |f| %>
-					  <%= f.input :username %>
-					  <%= f.input :password %>
-					  <%= f.button :submit %>
-					<% end %>
+  					<%= render 'signin-form' %>
   				</div>
-  				<div class="right"></div>
+  				<div class="right pull-right">
+  					<%= render 'register-form' %>
+  				</div>
 </div>

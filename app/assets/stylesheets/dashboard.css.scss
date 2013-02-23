@@ -1,0 +1,34 @@
+// Place all the styles related to the dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+@import "compass/css3";
+
+.dashboard
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:400px;
+	background-color:$white;
+
+    .menu
+    {
+    	width:20%;
+    	height:400px;
+
+    	.menu-items
+    	{
+    		list-style: none;
+    		font-size: 12px;
+    	}
+    	
+    }
+	 
+	.content
+	{
+		width:80%;
+		height:400px;
+		background: #f0f0f0 url(/assets/noise-f1.gif);
+	}
+}

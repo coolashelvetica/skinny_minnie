@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SkinnyMinnie</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="row-fluid">
+  <div class="span12">
+  		<%= nav_bar :brand => "THE SKINNY MINNIE",:responsive => true  %>
+<%= yield %>
+<div class="footer"></div>
+  </div>
+</div>
+</body>
+</html>

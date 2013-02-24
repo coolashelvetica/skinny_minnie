@@ -1,6 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@value"Ü{"
-class"BundledAsset"lengthi´Ú"content_type"text/css"_version"%6776f581a4329e299531e1d52aa59832"
-mtime"2013-02-23T16:25:02-05:00"logical_path"application.css"required_assets_digest"%6b3bdc6091887ff11567a20aa3a574b0"source"´Ú/*
+o: ActiveSupport::Cache::Entry	:@value"gå{"_version"%6776f581a4329e299531e1d52aa59832"lengthiä"
+mtime"2013-02-23T23:00:25-05:00"required_assets_digest"%e49f29db21e532e2452e16c54061f11a"pathname"6$root/app/assets/stylesheets/application.css.scss"source"ä/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -6815,7 +6814,7 @@ html, body {
 
 /* line 25, ../../app/assets/stylesheets/application.css.scss */
 body {
-  background: url("bg2.png");
+  background-color: #f6f6f6;
 }
 
 /* line 30, ../../app/assets/stylesheets/application.css.scss */
@@ -6823,7 +6822,19 @@ body {
   min-height: 100%;
 }
 
-/* line 38, ../../app/assets/stylesheets/application.css.scss */
+/* line 35, ../../app/assets/stylesheets/application.css.scss */
+.navbar .pull-right > li > .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* line 41, ../../app/assets/stylesheets/application.css.scss */
+.navbar {
+  margin-bottom: 0px !important;
+}
+/* line 44, ../../app/assets/stylesheets/application.css.scss */
 .navbar .navbar-inner {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -6831,20 +6842,62 @@ body {
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 43, ../../app/assets/stylesheets/application.css.scss */
+/* line 49, ../../app/assets/stylesheets/application.css.scss */
 .navbar .brand {
   background: url("/assets/logo.png");
 }
 
-/* line 49, ../../app/assets/stylesheets/application.css.scss */
+/* line 55, ../../app/assets/stylesheets/application.css.scss */
 .body {
   overflow: auto;
   padding-bottom: 180px;
   /* this needs to be bigger than footer height*/
 }
-
 /* line 58, ../../app/assets/stylesheets/application.css.scss */
-.login-box {
+.body .banner {
+  width: 800px;
+  height: 90px;
+  position: relative;
+  top: -140px;
+  left: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+/* line 68, ../../app/assets/stylesheets/application.css.scss */
+.body .banner .banner1 {
+  width: 350px;
+}
+/* line 73, ../../app/assets/stylesheets/application.css.scss */
+.body .banner .banner1 .lede {
+  width: 70%;
+  height: 80px;
+  position: relative;
+  top: 5px;
+  background-color: white;
+  font-family: Cambria;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+}
+/* line 87, ../../app/assets/stylesheets/application.css.scss */
+.body .banner .banner1 .price {
+  width: 30%;
+  height: 80px;
+  position: relative;
+  top: 5px;
+  background-color: black;
+  color: white;
+  font-family: cambria;
+  font-size: 33px;
+  line-height: 58px;
+  text-align: center;
+}
+
+/* line 107, ../../app/assets/stylesheets/application.css.scss */
+.loginandreg-box {
   width: 720px;
   height: 360px;
   margin-left: auto;
@@ -6856,31 +6909,31 @@ body {
   -moz-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
-/* line 69, ../../app/assets/stylesheets/application.css.scss */
-.login-box .left {
+/* line 118, ../../app/assets/stylesheets/application.css.scss */
+.loginandreg-box .left {
   width: 43%;
   height: 65%;
   border-right: 1px dotted rgba(0, 0, 0, 0.3);
   position: relative;
   margin: 17px 56px 0px 42px;
 }
-/* line 77, ../../app/assets/stylesheets/application.css.scss */
-.login-box .left h1 {
+/* line 126, ../../app/assets/stylesheets/application.css.scss */
+.loginandreg-box .left h1 {
   font-size: 23px;
 }
-/* line 83, ../../app/assets/stylesheets/application.css.scss */
-.login-box .right {
+/* line 132, ../../app/assets/stylesheets/application.css.scss */
+.loginandreg-box .right {
   width: 40%;
   height: 65%;
   position: relative;
   margin: 7px 0 0 0;
 }
-/* line 90, ../../app/assets/stylesheets/application.css.scss */
-.login-box .right h1 {
+/* line 139, ../../app/assets/stylesheets/application.css.scss */
+.loginandreg-box .right h1 {
   font-size: 23px;
 }
-/* line 96, ../../app/assets/stylesheets/application.css.scss */
-.login-box .shared-links {
+/* line 145, ../../app/assets/stylesheets/application.css.scss */
+.loginandreg-box .shared-links {
   display: inline-block;
   position: relative;
   top: -120px;
@@ -6889,7 +6942,41 @@ body {
   font-size: 11px;
   font-style: italic;
 }
-/* line 106, ../../app/assets/stylesheets/application.css.scss */
+/* line 155, ../../app/assets/stylesheets/application.css.scss */
+.loginandreg-box .shared-links li {
+  list-style: none;
+  float: left;
+  padding-right: 10px;
+}
+
+/* line 168, ../../app/assets/stylesheets/application.css.scss */
+.login-box {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+}
+/* line 175, ../../app/assets/stylesheets/application.css.scss */
+.login-box .main {
+  position: relative;
+  margin: 17px 56px 0px 42px;
+}
+/* line 179, ../../app/assets/stylesheets/application.css.scss */
+.login-box .main h1 {
+  font-size: 23px;
+}
+/* line 185, ../../app/assets/stylesheets/application.css.scss */
+.login-box .shared-links {
+  display: inline-block;
+  position: relative;
+  top: -67px;
+  float: right;
+  width: 130px;
+  font-size: 11px;
+  font-style: italic;
+  left: 35px;
+}
+/* line 196, ../../app/assets/stylesheets/application.css.scss */
 .login-box .shared-links li {
   list-style: none;
   float: left;
@@ -13714,4 +13801,5 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   height: 400px;
   background: #f0f0f0 url(/assets/noise-f1.gif);
 }
-"digest"%6b781e2d980ba11f168d06872b4bb884"pathname"6$root/app/assets/stylesheets/application.css.scss:@compressedF:@created_atf1361654710.8089581 Åø:@expires_in0
+"content_type"text/css"digest"%d7d19527500304ee04f2ae14ecafbfd8"
+class"BundledAsset"logical_path"application.css:@compressedF:@created_atf1361678429.0531499 fÏ:@expires_in0

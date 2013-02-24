@@ -21,7 +21,9 @@
     <% end %>
   		 
   		<% else %>
-  		<%= menu_item "Login", new_user_session_path %>
+  		<%= drop_down "Login" do %>
+      <%= render "login-box" %>
+    <% end %>
   		<% end %>
 
   		<% end -%>

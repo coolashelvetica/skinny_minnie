@@ -24,7 +24,15 @@ body
 {
 	background-color:#f6f6f6;
 }
-
+.user-logged-in {
+position: absolute;
+left: -40px;
+top: 13px;
+}
+.navbarsmprofile
+{
+	width:18px;
+}
 .span12
 {
 	min-height:100%;
@@ -38,16 +46,26 @@ body
 }
 .navbar
 {
+	.brand
+	{
+		background-color: #ff0084;
+		position: relative;
+		color: #FFF !important;
+		text-shadow: 0 1px 2px black !important;
+		margin-left: 0px !important;
+
+		img
+		{
+			width:150px;
+		}
+	}
 	margin-bottom:0px !important;
 	.navbar-inner
 	{
 		@include border-radius(0px);
 	}
 
-	.brand
-	{
-		background: url('/assets/logo.png');
-	}
+
 }
 
 .body

@@ -3,7 +3,7 @@
 						<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |register| %>
 						  <%= register.error_notification %>
 
-						    <%= register.input :email, :required => true, :autofocus => true %>
+						    <%= register.input :login, :required => true, :autofocus => true %>
 						    <%= register.input :password, :required => true %>
 						    <%= register.input :password_confirmation, :required => true %>
 						     <%= register.button :submit, "Sign up" %>

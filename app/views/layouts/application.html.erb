@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
   <title>SkinnyMinnie</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-</head>
-<body>
-	<p class="notice" style="display:none;"><%= notice %></p>
-       <p class="alert" style="display:none;"><%= alert %></p>
-<div class="row-fluid">
-  <div class="span12">
-  		<%= nav_bar :brand => "THE SKINNY MINNIE",:responsive => true  	do %>
-  		<% menu_group :pull => :right do %>
-  		<% if user_signed_in? %>
-      <%= drop_down "My Account" do %>
-        <%= menu_item "Dashboard", dashboard_index_path %>
-        <%= drop_down_divider %>
-        <%= menu_item "Logout", destroy_user_session_path, :method => :delete %>
-    <% end %>
-  		 
-  		<% else %>
-  		<%= drop_down "Login" do %>
-      <%= render "login-box" %>
-    <% end %>
-  		<% end %>
 
-  		<% end -%>
-  	<% end -%>
+</head>
+
+<body>
+	
+  <p class="notice" style="display:none;"><%= notice %></p>
+  <p class="alert" style="display:none;"><%= alert %></p>
+    
+    <div class="row-fluid">
+      <div class="span12">
+  		    <div class="navbar">
+            <div class="navbar-inner">
+              <a class="brand" href="#">THE SKINNY MINNIE</a>
+              <% if user_signed_in? %>
+               <%= render "shared/account-drop" %>
+               
+                <% else %>
+                <%= render "shared/login-drop" %>
+                 <% end %>
+            </div>
+        </div>
+
+  		
 <%= yield %>
   </div>
 </div>

@@ -1,0 +1,14 @@
+<ul class="nav pull-right">
+    <li class="dropdown ">
+    	<div class="user-logged-in"><%= current_user.username %></div>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+        <img class="navbarsmprofile" src="/assets/myprofile.png"></a>
+     
+     <ul class="dropdown-menu">
+     	  <li><%= link_to 'Dashboard', dashboard_index_path %></li>
+     	  <li class="divider"></li>
+     	  <li><%= link_to 'Logout', destroy_user_session_path, :method => :delete %></li>
+     </ul>
+ </li>
+ </ul>

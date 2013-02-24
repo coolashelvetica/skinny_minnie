@@ -11,7 +11,7 @@ SkinnyMinnie::Application.routes.draw do
 
   get "dashboard/edit_profile"
 
-  get "tsm_home/index"
+  get "tsmhome/index"
 
   devise_for :users
 

@@ -1,5 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@value"⁄‰{"_version"%6776f581a4329e299531e1d52aa59832"
-class"BundledAsset"source"Å„/*
+o: ActiveSupport::Cache::Entry	:@value"“‰{"lengthiy„"
+class"BundledAsset"content_type"text/css"_version"%6776f581a4329e299531e1d52aa59832"source"y„/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -6814,7 +6814,7 @@ html, body {
 
 /* line 25, ../../app/assets/stylesheets/application.css.scss */
 body {
-  background-color: #f6f6f6;
+  background: url("noise-f1.gif");
 }
 
 /* line 28, ../../app/assets/stylesheets/application.css.scss */
@@ -6834,31 +6834,11 @@ body {
   min-height: 100%;
 }
 
-/* line 43, ../../app/assets/stylesheets/application.css.scss */
-.navbar .pull-right > li > .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right {
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.3);
-}
-
-/* line 49, ../../app/assets/stylesheets/application.css.scss */
+/* line 44, ../../app/assets/stylesheets/application.css.scss */
 .navbar {
   margin-bottom: 0px !important;
 }
-/* line 51, ../../app/assets/stylesheets/application.css.scss */
-.navbar .brand {
-  background-color: #ff0084;
-  position: relative;
-  color: white !important;
-  text-shadow: 0 1px 2px black !important;
-  margin-left: 0px !important;
-}
-/* line 59, ../../app/assets/stylesheets/application.css.scss */
-.navbar .brand img {
-  width: 150px;
-}
-/* line 65, ../../app/assets/stylesheets/application.css.scss */
+/* line 48, ../../app/assets/stylesheets/application.css.scss */
 .navbar .navbar-inner {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -6867,29 +6847,33 @@ body {
   border-radius: 0px;
 }
 
-/* line 73, ../../app/assets/stylesheets/application.css.scss */
+/* line 56, ../../app/assets/stylesheets/application.css.scss */
 .body {
   overflow: auto;
+  background: url("/assets/homebanner.jpg") no-repeat;
+  background-size: 100%;
+  min-height: 800px;
   padding-bottom: 180px;
   /* this needs to be bigger than footer height*/
 }
-/* line 76, ../../app/assets/stylesheets/application.css.scss */
+/* line 63, ../../app/assets/stylesheets/application.css.scss */
 .body .banner {
-  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23%;
+  width: 70%;
   height: 90px;
   position: relative;
-  top: -140px;
-  left: 50px;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
-/* line 86, ../../app/assets/stylesheets/application.css.scss */
+/* line 74, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 {
-  width: 350px;
+  width: 440px;
 }
-/* line 91, ../../app/assets/stylesheets/application.css.scss */
+/* line 78, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 .lede {
   width: 70%;
   height: 80px;
@@ -6898,25 +6882,47 @@ body {
   background-color: white;
   font-family: Cambria;
   font-style: italic;
-  font-size: 40px;
-  line-height: 57px;
+  font-size: 56px;
+  line-height: 72px;
   text-align: center;
 }
-/* line 105, ../../app/assets/stylesheets/application.css.scss */
+/* line 91, ../../app/assets/stylesheets/application.css.scss */
+.body .banner .banner1 .lede .slogan {
+  position: relative;
+  top: -55px;
+  font-size: 13px;
+}
+/* line 101, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 .price {
   width: 30%;
   height: 80px;
   position: relative;
   top: 5px;
-  background-color: black;
+  background-color: #ff0084;
   color: white;
   font-family: cambria;
-  font-size: 33px;
-  line-height: 58px;
+  font-size: 46px;
+  line-height: 73px;
   text-align: center;
 }
+/* line 115, ../../app/assets/stylesheets/application.css.scss */
+.body .banner .banner1 .price .start {
+  font-size: 29px;
+  position: absolute;
+  top: -15px;
+  left: 107px;
+  color: #000;
+}
+/* line 123, ../../app/assets/stylesheets/application.css.scss */
+.body .banner .banner1 .price .monthly {
+  font-size: 12px;
+  position: relative;
+  top: -56px;
+  color: #000;
+  font-style: italic;
+}
 
-/* line 125, ../../app/assets/stylesheets/application.css.scss */
+/* line 139, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box {
   width: 720px;
   height: 360px;
@@ -6929,7 +6935,7 @@ body {
   -moz-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
-/* line 136, ../../app/assets/stylesheets/application.css.scss */
+/* line 150, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .left {
   width: 43%;
   height: 65%;
@@ -6937,22 +6943,22 @@ body {
   position: relative;
   margin: 17px 56px 0px 42px;
 }
-/* line 144, ../../app/assets/stylesheets/application.css.scss */
+/* line 158, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .left h1 {
   font-size: 23px;
 }
-/* line 150, ../../app/assets/stylesheets/application.css.scss */
+/* line 164, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .right {
   width: 40%;
   height: 65%;
   position: relative;
   margin: 7px 0 0 0;
 }
-/* line 157, ../../app/assets/stylesheets/application.css.scss */
+/* line 171, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .right h1 {
   font-size: 23px;
 }
-/* line 163, ../../app/assets/stylesheets/application.css.scss */
+/* line 177, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .shared-links {
   display: inline-block;
   position: relative;
@@ -6962,30 +6968,30 @@ body {
   font-size: 11px;
   font-style: italic;
 }
-/* line 173, ../../app/assets/stylesheets/application.css.scss */
+/* line 187, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .shared-links li {
   list-style: none;
   float: left;
   padding-right: 10px;
 }
 
-/* line 186, ../../app/assets/stylesheets/application.css.scss */
+/* line 200, ../../app/assets/stylesheets/application.css.scss */
 .login-box {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%;
 }
-/* line 193, ../../app/assets/stylesheets/application.css.scss */
+/* line 207, ../../app/assets/stylesheets/application.css.scss */
 .login-box .main {
   position: relative;
   margin: 17px 56px 0px 42px;
 }
-/* line 197, ../../app/assets/stylesheets/application.css.scss */
+/* line 211, ../../app/assets/stylesheets/application.css.scss */
 .login-box .main h1 {
   font-size: 23px;
 }
-/* line 203, ../../app/assets/stylesheets/application.css.scss */
+/* line 217, ../../app/assets/stylesheets/application.css.scss */
 .login-box .shared-links {
   display: inline-block;
   position: relative;
@@ -6996,7 +7002,7 @@ body {
   font-style: italic;
   left: 35px;
 }
-/* line 214, ../../app/assets/stylesheets/application.css.scss */
+/* line 228, ../../app/assets/stylesheets/application.css.scss */
 .login-box .shared-links li {
   list-style: none;
   float: left;
@@ -13796,5 +13802,5 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-"pathname"6$root/app/assets/stylesheets/application.css.scss"required_assets_digest"%472a4eb143a62bdb74d16099bb96900e"content_type"text/css"digest"%249eba70ca3a65b09e0d1bdde261b6b9"
-mtime"2013-02-24T13:11:20-05:00"logical_path"application.css"lengthiÅ„:@compressedF:@created_atf1361729488.695574 ÑI:@expires_in0
+"required_assets_digest"%e02684150347f0dd6411938678bd0a00"pathname"6$root/app/assets/stylesheets/application.css.scss"
+mtime"2013-02-24T18:06:59-05:00"logical_path"application.css"digest"%d9e220cd01bc2e2dbf9d5f66b3e3f1c1:@compressedF:@created_atf1361747226.166419 ¶ú:@expires_in0

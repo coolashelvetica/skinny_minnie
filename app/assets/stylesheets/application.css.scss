@@ -22,7 +22,7 @@ html,body
 
 body
 {
-	background-color:#f6f6f6;
+	background: url('noise-f1.gif');
 }
 .user-logged-in {
 position: absolute;
@@ -38,27 +38,10 @@ top: 13px;
 	min-height:100%;
 }
 
-.navbar .pull-right > li > .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right
-{
-		border: 1px solid rgba(0,0,0,0.3);
-		@include box-shadow( 0px 0px 0px 4px rgba(0, 0, 0, 0.3));
 
-}
 .navbar
 {
-	.brand
-	{
-		background-color: #ff0084;
-		position: relative;
-		color: #FFF !important;
-		text-shadow: 0 1px 2px black !important;
-		margin-left: 0px !important;
-
-		img
-		{
-			width:150px;
-		}
-	}
+	
 	margin-bottom:0px !important;
 	.navbar-inner
 	{
@@ -70,21 +53,25 @@ top: 13px;
 
 .body
 {
-	overflow:auto;
+	overflow: auto;
+	background: url("/assets/homebanner.jpg") no-repeat;
+	background-size: 100%;
+	min-height: 800px;
+
 	.banner
 	{
-		width:800px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 23%;
+		width: 70%;
 		height:90px;
 		position: relative;
-		top: -140px;
-		left: 50px;
 		background-color:rgba(0,0,0,0.3);
    		@include box-shadow( 0px 0px 0px 15px rgba(0, 0, 0, 0.3));
 
    		.banner1
    		{
-   			width:350px;
-
+   			width:440px;
 
    			.lede
    			{
@@ -95,9 +82,18 @@ top: 13px;
    				background-color:$white;
    				font-family: Cambria;
 				font-style: italic;
-				font-size: 40px;
-				line-height: 57px;
+				font-size: 56px;
+				line-height: 72px;
 				text-align: center;
+
+				.slogan 
+	   			{
+					position: relative;
+					top: -55px;
+					font-size: 13px;
+
+				}
+
    			}
 
    			.price
@@ -106,12 +102,30 @@ top: 13px;
    				height:80px;
    				position: relative;
    				top:5px;
-   				background-color:$black;
+   				background-color:#ff0084;
    				color: $white;
 				font-family: cambria;
-				font-size: 33px;
-				line-height: 58px;
+				font-size: 46px;
+				line-height: 73px;
 				text-align: center;
+
+
+				.start 
+				{
+					font-size: 29px;
+					position: absolute;
+					top: -15px;
+					left: 107px;
+					color: #000;
+				}
+				.monthly 
+				{
+					font-size: 12px;
+					position: relative;
+					top: -56px;
+					color: #000;
+					font-style: italic;
+				}
    			}
    		}
 	}

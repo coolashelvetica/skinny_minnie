@@ -19,12 +19,15 @@
   		    <div class="navbar">
             <div class="navbar-inner">
               <a class="brand" href="#">THE SKINNY MINNIE</a>
+              <ul class="nav pull-right">
+                <li><%= link_to 'Dashboard', dashboard_index_path %></li>
               <% if user_signed_in? %>
                <%= render "shared/account-drop" %>
                
                 <% else %>
                 <%= render "shared/login-drop" %>
                  <% end %>
+                  </ul>
             </div>
         </div>
 

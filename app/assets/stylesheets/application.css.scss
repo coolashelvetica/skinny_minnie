@@ -22,12 +22,16 @@ html,body
 
 body
 {
-	background: url('noise-f1.gif');
+	background-color:#fff;
 }
+
+
 .user-logged-in {
-position: absolute;
-left: -40px;
 top: 13px;
+color: #000;
+float: left;
+position: relative;
+padding-right:10px;
 }
 .navbarsmprofile
 {
@@ -63,7 +67,6 @@ top: 13px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 23%;
-		width: 70%;
 		height:90px;
 		position: relative;
 		background-color:rgba(0,0,0,0.3);
@@ -72,6 +75,7 @@ top: 13px;
    		.banner1
    		{
    			width:440px;
+   			margin-left: 7%;
 
    			.lede
    			{

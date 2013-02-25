@@ -1,6 +1,8 @@
-o: ActiveSupport::Cache::Entry	:@value"Ù{"lengthi˜ü"
-class"ProcessedAsset"dependency_digest"%e02684150347f0dd6411938678bd0a00"content_type"text/css"_version"%6776f581a4329e299531e1d52aa59832"dependency_paths[/{"	path"i/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_layouts.scss"
-mtime"2013-02-23T03:34:17-05:00"digest"%a74c0e23daf897a98a9f2e6ddf10d2a9{@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_alerts.scss@"2013-02-23T03:34:17-05:00@"%6a04a79b7536c4bfd7f578dec3cb7a61{@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_hero-unit.scss@"2013-02-23T03:34:17-05:00@"%a7f534775ffe1687fc6959ea051c4ea1{@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_reset.scss@"2013-02-23T03:34:17-05:00@"%e5183958ec64219f1e3023d145209a2e{@"f/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_code.scss@"2013-02-23T03:34:17-05:00@"%341e2c19200a795b8242cb7a46ee49e9{@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_dropdowns.scss@"2013-02-23T03:34:17-05:00@"%f64f086276063a73b82f184f73a0a899{@"i/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_tooltip.scss@"2013-02-23T03:34:17-05:00@"%865b4c451514f5022169166b249de304{@"j/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_popovers.scss@"2013-02-23T03:34:17-05:00@"%bfb91d933eb8df283022d95f45c62289{@"j/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_carousel.scss@"2013-02-23T03:34:17-05:00@"%2facfa11defe3241c0b5bc4a8752243d{@"f/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_type.scss@"2013-02-23T03:34:17-05:00@"%6d694f21026cedda66de83cc9c4da122{@"1$root/app/assets/stylesheets/mixins.css.scss@"2013-02-23T04:34:32-05:00@"%6776f581a4329e299531e1d52aa59832{@"!$root/app/assets/stylesheets@"2013-02-24T17:46:29-05:00@"%f55887e351bbca1c5ca772f070387a7e{@"`/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap.scss@"2013-02-23T03:34:17-05:00@"%7bf54462caf28c1a55f763dffc9806ff{@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_variables.scss@"2013-02-23T03:34:17-05:00@"%f6fb2cfeeb80f7c4e95b6f1fccc2ccc6{@"i/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_buttons.scss@"2013-02-23T03:34:17-05:00@"%c3188e90e8f22cb234ef1e38402233d1{@"l/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_thumbnails.scss@"2013-02-23T03:34:17-05:00@"%ebe14a644e0e636670447eccc596fe1e{@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_forms.scss@"2013-02-23T03:34:17-05:00@"%ab30d2f81a2b4f0f18004c1cc77e3686{@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_wells.scss@"2013-02-23T03:34:17-05:00@"%3329de16f3a1b40b50a7e583eeb661bb{@"4$root/app/assets/stylesheets/dashboard.css.scss@"2013-02-24T17:43:00-05:00@"%032f26480db33669af3c1f803906254f{@"o/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_button-groups.scss@"2013-02-23T03:34:17-05:00@"%be46170b5ab513b696d86681ac35c49d{@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_accordion.scss@"2013-02-23T03:34:17-05:00@"%f5ea658df96c6415ccefcc19c47d3def{@"m/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss@"2013-02-23T03:34:17-05:00@"%952ef8ca826d8c4c4a83dae3af722f72{@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_utilities.scss@"2013-02-23T03:34:17-05:00@"%3d847dd11093abf0da5ade865475fb5a{@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_tables.scss@"2013-02-23T03:34:17-05:00@"%8de970a46771e56ae7566733b967f732{@"i/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_sprites.scss@"2013-02-23T03:34:17-05:00@"%151d6d930b0b95d0b597419e2f436c05{@"f/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_navs.scss@"2013-02-23T03:34:17-05:00@"%270869326fd2fe0ebfd8f2f8b7d363a7{@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_pager.scss@"2013-02-23T03:34:17-05:00@"%1fffa1c671ebdb292672ab7b27ff661b{@"j/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/bootstrap.scss@"2013-02-23T03:34:17-05:00@"%00ab88c81cd0bc62a1c870274bc40944{@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_mixins.scss@"2013-02-23T03:34:17-05:00@"%f4157cf2020267921f167bf8373565b4{@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_close.scss@"2013-02-23T03:34:17-05:00@"%5f0c76d7d9e91ec98897381c706d5bfa{@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_navbar.scss@"2013-02-23T03:34:17-05:00@"%5837d92cdabdddc5e04dbd94623e62f0{@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_media.scss@"2013-02-23T03:34:17-05:00@"%7ba3b733d13c6399ef8d559e78cc5948{@"o/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_labels-badges.scss@"2013-02-23T03:34:17-05:00@"%40d98fe5447229dd0cebe0c6a15a4c88{@"m/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss@"2013-02-23T03:34:17-05:00@"%d872ff39a15ea216be011b3ba3f2fd67{@"v/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_component-animations.scss@"2013-02-23T03:34:17-05:00@"%c02b14dcaa9757dd8f4a0846aa788fa1{@"l/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_pagination.scss@"2013-02-23T03:34:17-05:00@"%ec5baa959b634bd3cf739a5762e5c3b1{@"6$root/app/assets/stylesheets/application.css.scss@"2013-02-24T18:06:59-05:00@"%3040926a0ba9e7c313222f6b29e5b0f5{@"/$root/app/assets/stylesheets/home.css.scss@"2013-02-23T05:00:37-05:00@"%6888016fc20d4bf045afe102866e62e4{@"2$root/app/assets/stylesheets/tsmhome.css.scss@"2013-02-24T17:46:14-05:00@"%a3531b9a0c02523ec38bdec55d09140b{@"f/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_grid.scss@"2013-02-23T03:34:17-05:00@"%4ffd7d39ebbb5bccd5177b29d577c02a{@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_modals.scss@"2013-02-23T03:34:17-05:00@"%1aa3cf73cd2a062311c50110d2931c54{@"o/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_progress-bars.scss@"2013-02-23T03:34:17-05:00@"%81e4123ab3a05373f18a9eb76602f848"source"˜ü/*
+o: ActiveSupport::Cache::Entry	:@value"û{"dependency_digest"%429be7eb330ad4dd3952134c3c464fdd"_version"%6776f581a4329e299531e1d52aa59832"digest"%cef2233e12f2527c24602a52fbe44dab"lengthiºü"pathname"6$root/app/assets/stylesheets/application.css.scss"
+class"ProcessedAsset"dependency_paths[/{"digest"%705de0d215303ab1e27f0379fc06a9d8"
+mtime"2013-02-25T09:53:23-05:00"	path"4$root/app/assets/stylesheets/dashboard.css.scss{@"%d872ff39a15ea216be011b3ba3f2fd67@"2013-02-23T03:34:17-05:00@"m/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss{@"%341e2c19200a795b8242cb7a46ee49e9@"2013-02-23T03:34:17-05:00@"f/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_code.scss{@"%5f0c76d7d9e91ec98897381c706d5bfa@"2013-02-23T03:34:17-05:00@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_close.scss{@"%270869326fd2fe0ebfd8f2f8b7d363a7@"2013-02-23T03:34:17-05:00@"f/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_navs.scss{@"%1aa3cf73cd2a062311c50110d2931c54@"2013-02-23T03:34:17-05:00@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_modals.scss{@"%f5ea658df96c6415ccefcc19c47d3def@"2013-02-23T03:34:17-05:00@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_accordion.scss{@"%14334f5b7a1fc366a120b7f8473c9048@"2013-02-25T09:36:00-05:00@"/$root/app/assets/stylesheets/home.css.scss{@"%4ffd7d39ebbb5bccd5177b29d577c02a@"2013-02-23T03:34:17-05:00@"f/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_grid.scss{@"%4361aa3c7b2fb3bcfe73a3bec54941d4@"2013-02-25T10:13:33-05:00@"6$root/app/assets/stylesheets/application.css.scss{@"%3329de16f3a1b40b50a7e583eeb661bb@"2013-02-23T03:34:17-05:00@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_wells.scss{@"%c02b14dcaa9757dd8f4a0846aa788fa1@"2013-02-23T03:34:17-05:00@"v/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_component-animations.scss{@"%7ba3b733d13c6399ef8d559e78cc5948@"2013-02-23T03:34:17-05:00@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_media.scss{@"%40d98fe5447229dd0cebe0c6a15a4c88@"2013-02-23T03:34:17-05:00@"o/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_labels-badges.scss{@"%2facfa11defe3241c0b5bc4a8752243d@"2013-02-23T03:34:17-05:00@"j/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_carousel.scss{@"%a7f534775ffe1687fc6959ea051c4ea1@"2013-02-23T03:34:17-05:00@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_hero-unit.scss{@"%7bf54462caf28c1a55f763dffc9806ff@"2013-02-23T03:34:17-05:00@"`/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap.scss{@"%e5183958ec64219f1e3023d145209a2e@"2013-02-23T03:34:17-05:00@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_reset.scss{@"%8de970a46771e56ae7566733b967f732@"2013-02-23T03:34:17-05:00@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_tables.scss{@"%952ef8ca826d8c4c4a83dae3af722f72@"2013-02-23T03:34:17-05:00@"m/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss{@"%6776f581a4329e299531e1d52aa59832@"2013-02-23T04:34:32-05:00@"1$root/app/assets/stylesheets/mixins.css.scss{@"%00ab88c81cd0bc62a1c870274bc40944@"2013-02-23T03:34:17-05:00@"j/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/bootstrap.scss{@"%6d694f21026cedda66de83cc9c4da122@"2013-02-23T03:34:17-05:00@"f/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_type.scss{@"%c3188e90e8f22cb234ef1e38402233d1@"2013-02-23T03:34:17-05:00@"i/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_buttons.scss{@"%ec5baa959b634bd3cf739a5762e5c3b1@"2013-02-23T03:34:17-05:00@"l/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_pagination.scss{@"%1fffa1c671ebdb292672ab7b27ff661b@"2013-02-23T03:34:17-05:00@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_pager.scss{@"%bfb91d933eb8df283022d95f45c62289@"2013-02-23T03:34:17-05:00@"j/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_popovers.scss{@"%f6fb2cfeeb80f7c4e95b6f1fccc2ccc6@"2013-02-23T03:34:17-05:00@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_variables.scss{@"%a74c0e23daf897a98a9f2e6ddf10d2a9@"2013-02-23T03:34:17-05:00@"i/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_layouts.scss{@"%865b4c451514f5022169166b249de304@"2013-02-23T03:34:17-05:00@"i/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_tooltip.scss{@"%6a04a79b7536c4bfd7f578dec3cb7a61@"2013-02-23T03:34:17-05:00@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_alerts.scss{@"%f4157cf2020267921f167bf8373565b4@"2013-02-23T03:34:17-05:00@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_mixins.scss{@"%3d847dd11093abf0da5ade865475fb5a@"2013-02-23T03:34:17-05:00@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_utilities.scss{@"%a3531b9a0c02523ec38bdec55d09140b@"2013-02-24T17:46:14-05:00@"2$root/app/assets/stylesheets/tsmhome.css.scss{@"%f55887e351bbca1c5ca772f070387a7e@"2013-02-24T17:46:29-05:00@"!$root/app/assets/stylesheets{@"%ab30d2f81a2b4f0f18004c1cc77e3686@"2013-02-23T03:34:17-05:00@"g/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_forms.scss{@"%f64f086276063a73b82f184f73a0a899@"2013-02-23T03:34:17-05:00@"k/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_dropdowns.scss{@"%be46170b5ab513b696d86681ac35c49d@"2013-02-23T03:34:17-05:00@"o/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_button-groups.scss{@"%5837d92cdabdddc5e04dbd94623e62f0@"2013-02-23T03:34:17-05:00@"h/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_navbar.scss{@"%81e4123ab3a05373f18a9eb76602f848@"2013-02-23T03:34:17-05:00@"o/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_progress-bars.scss{@"%151d6d930b0b95d0b597419e2f436c05@"2013-02-23T03:34:17-05:00@"i/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_sprites.scss{@"%ebe14a644e0e636670447eccc596fe1e@"2013-02-23T03:34:17-05:00@"l/Library/Ruby/Gems/1.8/gems/bootstrap-sass-2.3.0.1/vendor/assets/stylesheets/bootstrap/_thumbnails.scss"required_paths[
+"6$root/app/assets/stylesheets/application.css.scss"4$root/app/assets/stylesheets/dashboard.css.scss"/$root/app/assets/stylesheets/home.css.scss"1$root/app/assets/stylesheets/mixins.css.scss"2$root/app/assets/stylesheets/tsmhome.css.scss"
+mtime"2013-02-25T10:13:33-05:00"logical_path"application.css"source"ºü/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -6815,31 +6817,33 @@ html, body {
 
 /* line 25, ../../app/assets/stylesheets/application.css.scss */
 body {
-  background: url("noise-f1.gif");
+  background-color: #fff;
 }
 
-/* line 28, ../../app/assets/stylesheets/application.css.scss */
+/* line 30, ../../app/assets/stylesheets/application.css.scss */
 .user-logged-in {
-  position: absolute;
-  left: -40px;
   top: 13px;
+  color: #000;
+  float: left;
+  position: relative;
+  padding-right: 10px;
 }
 
-/* line 34, ../../app/assets/stylesheets/application.css.scss */
+/* line 38, ../../app/assets/stylesheets/application.css.scss */
 .navbarsmprofile {
   width: 18px;
 }
 
-/* line 38, ../../app/assets/stylesheets/application.css.scss */
+/* line 42, ../../app/assets/stylesheets/application.css.scss */
 .span12 {
   min-height: 100%;
 }
 
-/* line 44, ../../app/assets/stylesheets/application.css.scss */
+/* line 48, ../../app/assets/stylesheets/application.css.scss */
 .navbar {
   margin-bottom: 0px !important;
 }
-/* line 48, ../../app/assets/stylesheets/application.css.scss */
+/* line 52, ../../app/assets/stylesheets/application.css.scss */
 .navbar .navbar-inner {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -6848,7 +6852,7 @@ body {
   border-radius: 0px;
 }
 
-/* line 56, ../../app/assets/stylesheets/application.css.scss */
+/* line 60, ../../app/assets/stylesheets/application.css.scss */
 .body {
   overflow: auto;
   background: url("/assets/homebanner.jpg") no-repeat;
@@ -6857,12 +6861,11 @@ body {
   padding-bottom: 180px;
   /* this needs to be bigger than footer height*/
 }
-/* line 63, ../../app/assets/stylesheets/application.css.scss */
+/* line 67, ../../app/assets/stylesheets/application.css.scss */
 .body .banner {
   margin-left: auto;
   margin-right: auto;
   margin-top: 23%;
-  width: 70%;
   height: 90px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.3);
@@ -6870,11 +6873,12 @@ body {
   -moz-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
-/* line 74, ../../app/assets/stylesheets/application.css.scss */
+/* line 77, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 {
   width: 440px;
+  margin-left: 7%;
 }
-/* line 78, ../../app/assets/stylesheets/application.css.scss */
+/* line 82, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 .lede {
   width: 70%;
   height: 80px;
@@ -6887,13 +6891,13 @@ body {
   line-height: 72px;
   text-align: center;
 }
-/* line 91, ../../app/assets/stylesheets/application.css.scss */
+/* line 95, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 .lede .slogan {
   position: relative;
   top: -55px;
   font-size: 13px;
 }
-/* line 101, ../../app/assets/stylesheets/application.css.scss */
+/* line 105, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 .price {
   width: 30%;
   height: 80px;
@@ -6906,7 +6910,7 @@ body {
   line-height: 73px;
   text-align: center;
 }
-/* line 115, ../../app/assets/stylesheets/application.css.scss */
+/* line 119, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 .price .start {
   font-size: 29px;
   position: absolute;
@@ -6914,7 +6918,7 @@ body {
   left: 107px;
   color: #000;
 }
-/* line 123, ../../app/assets/stylesheets/application.css.scss */
+/* line 127, ../../app/assets/stylesheets/application.css.scss */
 .body .banner .banner1 .price .monthly {
   font-size: 12px;
   position: relative;
@@ -6923,7 +6927,7 @@ body {
   font-style: italic;
 }
 
-/* line 139, ../../app/assets/stylesheets/application.css.scss */
+/* line 143, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box {
   width: 720px;
   height: 360px;
@@ -6936,7 +6940,7 @@ body {
   -moz-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
-/* line 150, ../../app/assets/stylesheets/application.css.scss */
+/* line 154, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .left {
   width: 43%;
   height: 65%;
@@ -6944,22 +6948,22 @@ body {
   position: relative;
   margin: 17px 56px 0px 42px;
 }
-/* line 158, ../../app/assets/stylesheets/application.css.scss */
+/* line 162, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .left h1 {
   font-size: 23px;
 }
-/* line 164, ../../app/assets/stylesheets/application.css.scss */
+/* line 168, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .right {
   width: 40%;
   height: 65%;
   position: relative;
   margin: 7px 0 0 0;
 }
-/* line 171, ../../app/assets/stylesheets/application.css.scss */
+/* line 175, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .right h1 {
   font-size: 23px;
 }
-/* line 177, ../../app/assets/stylesheets/application.css.scss */
+/* line 181, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .shared-links {
   display: inline-block;
   position: relative;
@@ -6969,30 +6973,30 @@ body {
   font-size: 11px;
   font-style: italic;
 }
-/* line 187, ../../app/assets/stylesheets/application.css.scss */
+/* line 191, ../../app/assets/stylesheets/application.css.scss */
 .loginandreg-box .shared-links li {
   list-style: none;
   float: left;
   padding-right: 10px;
 }
 
-/* line 200, ../../app/assets/stylesheets/application.css.scss */
+/* line 204, ../../app/assets/stylesheets/application.css.scss */
 .login-box {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%;
 }
-/* line 207, ../../app/assets/stylesheets/application.css.scss */
+/* line 211, ../../app/assets/stylesheets/application.css.scss */
 .login-box .main {
   position: relative;
   margin: 17px 56px 0px 42px;
 }
-/* line 211, ../../app/assets/stylesheets/application.css.scss */
+/* line 215, ../../app/assets/stylesheets/application.css.scss */
 .login-box .main h1 {
   font-size: 23px;
 }
-/* line 217, ../../app/assets/stylesheets/application.css.scss */
+/* line 221, ../../app/assets/stylesheets/application.css.scss */
 .login-box .shared-links {
   display: inline-block;
   position: relative;
@@ -7003,12 +7007,10 @@ body {
   font-style: italic;
   left: 35px;
 }
-/* line 228, ../../app/assets/stylesheets/application.css.scss */
+/* line 232, ../../app/assets/stylesheets/application.css.scss */
 .login-box .shared-links li {
   list-style: none;
   float: left;
   padding-right: 10px;
 }
-"required_paths[
-"6$root/app/assets/stylesheets/application.css.scss"4$root/app/assets/stylesheets/dashboard.css.scss"/$root/app/assets/stylesheets/home.css.scss"1$root/app/assets/stylesheets/mixins.css.scss"2$root/app/assets/stylesheets/tsmhome.css.scss"pathname"6$root/app/assets/stylesheets/application.css.scss"
-mtime"2013-02-24T18:06:59-05:00"logical_path"application.css"digest"%84aaa50b24ac34b99fe8f1b9af6d1fcd:@compressedF:@created_atf1361747226.086308 †:@expires_in0
+"content_type"text/css:@compressedF:@created_atf1361805218.0194139 >:@expires_in0

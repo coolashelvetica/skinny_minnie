@@ -1,5 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@value"6θ{"_version"%6776f581a4329e299531e1d52aa59832"
-class"BundledAsset"source"αζ/*
+o: ActiveSupport::Cache::Entry	:@value"/μ{"required_assets_digest"%6cb10afa929c5de450d3c39702de884f"_version"%6776f581a4329e299531e1d52aa59832"digest"%f694233ee7380fc305c6b3d2cc13f951"lengthiΪκ"pathname"4$root/app/assets/stylesheets/dashboard.css.scss"
+class"BundledAsset"
+mtime"2013-02-25T09:53:23-05:00"logical_path"dashboard.css"source"Ϊκ/*
  * Bootstrap v2.3.0
  *
  * Copyright 2012 Twitter, Inc
@@ -6793,5 +6794,42 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-"pathname"4$root/app/assets/stylesheets/dashboard.css.scss"required_assets_digest"%eafd3a8c1d9d9a543dd1475424bcad18"content_type"text/css"digest"%d9b0d734dcf46d66a9c48042d67495da"
-mtime"2013-02-24T17:43:00-05:00"logical_path"dashboard.css"lengthiαζ:@compressedF:@created_atf1361745786.7452779 ²Ά:@expires_in0
+
+/* line 8, ../../app/assets/stylesheets/dashboard.css.scss */
+.container {
+  background: url("/assets/chruch.png");
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, ../../app/assets/stylesheets/dashboard.css.scss */
+.dashboard {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+}
+/* line 23, ../../app/assets/stylesheets/dashboard.css.scss */
+.dashboard .top .profile-pic {
+  width: 20%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+/* line 29, ../../app/assets/stylesheets/dashboard.css.scss */
+.dashboard .top .profile-pic img {
+  width: 100%;
+}
+
+/* line 40, ../../app/assets/stylesheets/dashboard.css.scss */
+.navbar-inverse .brand {
+  color: #fff;
+  font-size: 18px;
+}
+/* line 45, ../../app/assets/stylesheets/dashboard.css.scss */
+.navbar-inverse .navbar-inner {
+  background-image: none;
+  background: url("/assets/debut_dark.png");
+}
+"content_type"text/css:@compressedF:@created_atf1361804010.2772779 Ύμ:@expires_in0

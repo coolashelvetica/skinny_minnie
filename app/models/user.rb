@@ -1,5 +1,9 @@
 class User < ActiveRecord::Base
-  
+  acts_as_follower
+  acts_as_followable
+  acts_as_liker
+  acts_as_likeable
+  acts_as_mentionable
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable

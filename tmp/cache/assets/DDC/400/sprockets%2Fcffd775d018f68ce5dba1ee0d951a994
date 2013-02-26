@@ -1,6 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@value"úK{"
-class"BundledAsset"lengthišJ"content_type"application/javascript"_version"%6776f581a4329e299531e1d52aa59832"
-mtime"2013-02-23T15:19:44-05:00"logical_path"application.js"required_assets_digest"%f489fc93f1511b5c11842749b54a8a85"source"šJ/*!
+o: ActiveSupport::Cache::Entry	:@value"•L{"
+mtime"2013-02-26T12:19:19-05:00"required_assets_digest"%3dbded835f291b9fcb0025c2a21dde2a"lengthi5K"digest"%386d6947db84d64468ef034520fb0a3b"source"5K/*!
  * jQuery JavaScript Library v1.9.1
  * http://jquery.com/
  *
@@ -10013,6 +10012,14 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 
 }).call(this);
+(function() {
+
+  $(".following-button").click(function() {
+    $(".following-button").hide();
+    return $(".follow-button").show();
+  });
+
+}).call(this);
 /* ===================================================
  * bootstrap-transition.js v2.3.0
  * http://twitter.github.com/bootstrap/javascript.html#transitions
@@ -12332,4 +12339,5 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 // Loads all Bootstrap javascripts
 
 ;
-"digest"%3b1236ae71cdccf5ed35018a2bf6813b"pathname"0$root/app/assets/javascripts/application.js:@compressedF:@created_atf1361650846.7028649 û½:@expires_in0
+"content_type"application/javascript"
+class"BundledAsset"_version"%6776f581a4329e299531e1d52aa59832"pathname"0$root/app/assets/javascripts/application.js"logical_path"application.js:@expires_in0:@compressedF:@created_atf1361899160.671839 ÿi

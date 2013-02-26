@@ -1,4 +1,4 @@
 require 'test_helper'
 
-class TsmHomeHelperTest < ActionView::TestCase
+class tsmHelperTest < ActionView::TestCase
 end

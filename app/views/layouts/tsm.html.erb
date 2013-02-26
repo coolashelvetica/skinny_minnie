@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>SkinnyMinnie</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+</head>
+
+<body>
+	
+  <p class="notice" style="display:none;"><%= notice %></p>
+  <p class="alert" style="display:none;"><%= alert %></p>
+    
+    <div class="row-fluid">
+      <div class="span12">
+  		    <div class="navbar">
+            <div class="navbar-inner">
+              <a class="brand" href="#">THE SKINNY MINNIE</a>
+               <ul class="nav pull-right">
+              <% if user_signed_in? %>
+               <%= render "shared/account-drop" %>
+               
+                <% else %>
+                <%= render "shared/login-drop" %>
+                 <% end %>
+               </ul>
+            </div>
+        </div>
+
+  		
+<%= yield %>
+  </div>
+</div>
+</body>
+</html>

@@ -1,4 +1,6 @@
 SkinnyMinnie::Application.routes.draw do
+  get "users/index"
+
   get "dashboard/index"
 
   get "dashboard/my_rentals"
@@ -13,11 +15,23 @@ SkinnyMinnie::Application.routes.draw do
 
   get "tsmhome/index"
 
+
   devise_for :users
 
   get "home/index"
-  resources :users
+  resources :users do
+  match 'show/:id' => 'user#show'
+  collection do
+    get 'follow'
+    get 'unfollow'
+    get 'followers'
+    get 'following'
+  end
 
+
+end
+
+  
   
 
   

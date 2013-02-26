@@ -1,0 +1,27 @@
+<% if @user.id == current_user.id %>
+<script type="text/javascript">
+    window.location.href="/dashboard/index"  // put your correct path in a string here
+  </script>
+<% end %>
+
+<p>user id: <%= @user.id %> </p>
+<p>Name: <%= @user.first_name %> <%= @user.last_name %> </p>
+<p>Username: <%= @user.username %></p>
+<p>Email: <%= @user.email %></p>
+<p>Current Weight: <%= @user.current_weight %></p>
+<p>Goal Weight: <%= @user.goal_weight %></p>
+<p>Followers: <%= @user.followers(User).count %></p>
+
+<% if @user.followers(User).count > 0 %>
+   <%= link_to "Followers", followers_users_path(:user => @user)%>
+   <%= link_to "Following", following_users_path(:user => @user)%>
+<% else %>
+  
+<% end %>
+
+
+<% if current_user.follows?(@user)%>
+   <%= link_to "Unfollow", unfollow_users_path(:user => @user), :class => "btn btn-primary"%>
+<% else %>
+   <%= link_to "Follow", follow_users_path(:user => @user), :class => "btn btn-primary"%>
+<% end %>

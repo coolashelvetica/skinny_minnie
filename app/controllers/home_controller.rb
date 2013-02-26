@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   def index
     if user_signed_in?
-      render "tsmhome/index", :layout  => 'tsmhome' 
+      render "tsm/index", :layout  => 'tsm' 
     else
       render "index"
   end

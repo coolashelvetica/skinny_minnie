@@ -33,7 +33,7 @@ end
 
 def following
      @user = User.find(params[:user])
-     @following = @user.followees(User)
+     @following = @user.followers(User)
      @users = User.all
      
      response = {:user => @user, :following => @following, :users => @users}

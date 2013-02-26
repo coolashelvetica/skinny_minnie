@@ -1,8 +1,8 @@
-<p><u>Following</u></p>
+<p><u>Followers</u></p>
 
-<% (1..(@user.followers(User).count)).each do |i| %>
-<% @theuser = @users[i] %>
-	<% if @user.follows?(@theuser) %> 
-  <p> <%= @theuser.username %> </p>
+<% (1..(@followers.count)).each do |i| %>
+
+	<% if @users[i].follows?(@user) %> 
+  <p> <%= @users[i].username %> </p>
    <% end %>
 <% end %>

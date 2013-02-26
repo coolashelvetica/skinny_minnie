@@ -1,6 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@value"Iι{"_version"%6776f581a4329e299531e1d52aa59832"
-class"BundledAsset"required_assets_digest"%98e632877791292ebf61a83c7ce7003b"content_type"text/css"digest"%ccc9ddd003c320d3aa653b1cc029ec0f"
-mtime"2013-02-25T10:13:33-05:00"logical_path"application.css"lengthiπη"pathname"6$root/app/assets/stylesheets/application.css.scss"source"πη/*
+o: ActiveSupport::Cache::Entry	:@value"_ι{"required_assets_digest"%362153d50f814a40da7190a773566266"source"θ/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -13827,18 +13825,19 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   -webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+  margin-right: 35px;
 }
-/* line 29, ../../app/assets/stylesheets/dashboard.css.scss */
+/* line 30, ../../app/assets/stylesheets/dashboard.css.scss */
 .dashboard .top .profile-pic img {
   width: 100%;
 }
 
-/* line 40, ../../app/assets/stylesheets/dashboard.css.scss */
+/* line 41, ../../app/assets/stylesheets/dashboard.css.scss */
 .navbar-inverse .brand {
   color: #fff;
   font-size: 18px;
 }
-/* line 45, ../../app/assets/stylesheets/dashboard.css.scss */
+/* line 46, ../../app/assets/stylesheets/dashboard.css.scss */
 .navbar-inverse .navbar-inner {
   background-image: none;
   background: url("/assets/debut_dark.png");
@@ -13847,4 +13846,6 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 body {
   background-color: #fff;
 }
-:@expires_in0:@compressedF:@created_atf1361822749.0992119 Y}
+"pathname"6$root/app/assets/stylesheets/application.css.scss"
+class"BundledAsset"digest"%6b9c13f1c647df724a2607c3756fa83b"lengthiθ"
+mtime"2013-02-27T00:24:22-05:00"content_type"text/css"logical_path"application.css"_version"%6776f581a4329e299531e1d52aa59832:@expires_in0:@compressedF:@created_atf1361942670.8642261 O{

@@ -21,9 +21,8 @@ end
 def followers
      @user = User.find(params[:user])
      @followers = @user.followers(User)
-     @users = User.all
-     
-     response = {:user => @user, :followers => @followers, :users => @users}
+   
+     response = {:user => @user, :followers => @followers}
      
      respond_to do |format|
       format.html  #followers.html.erb
@@ -33,10 +32,9 @@ end
 
 def following
      @user = User.find(params[:user])
-     @following = @user.followers(User)
-     @users = User.all
-     
-     response = {:user => @user, :following => @following, :users => @users}
+     @following = @user.followees(User)
+
+     response = {:user => @user, :following => @following}
      
      respond_to do |format|
       format.html  #following.html.erb

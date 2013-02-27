@@ -1,8 +1,5 @@
 <p><u>Followers</u></p>
 
-<% (1..(@followers.count)).each do |i| %>
-
-	<% if @users[i].follows?(@user) %> 
-  <p> <%= @users[i].username %> </p>
-   <% end %>
+<% @followers.each do |f| %> 
+  <p> <%= f.username %> </p>
 <% end %>

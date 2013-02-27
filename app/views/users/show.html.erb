@@ -26,7 +26,7 @@
 	<% else %>
 	   <%= link_to "Follow", follow_users_path(:user => @user), :class => "btn btn-primary"%>
 	<% end %>
-
+ <%= render :partial => "shared/flash_messages", :locals => {:flash => flash} %>
 		<% end %>
 		
 		</div>

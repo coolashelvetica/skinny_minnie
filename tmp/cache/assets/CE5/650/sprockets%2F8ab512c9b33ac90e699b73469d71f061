@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@value"_é{"required_assets_digest"%362153d50f814a40da7190a773566266"source"è/*
+o: ActiveSupport::Cache::Entry	:@value"ê{"required_assets_digest"%547b99d1f484fff7ca0bdacecae2b568"source"­è/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -13831,13 +13831,19 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 .dashboard .top .profile-pic img {
   width: 100%;
 }
+/* line 35, ../../app/assets/stylesheets/dashboard.css.scss */
+.dashboard .top .alert.alert-success.fade.in {
+  margin-top: 19px;
+  width: 7%;
+  margin-left: 281px;
+}
 
-/* line 41, ../../app/assets/stylesheets/dashboard.css.scss */
+/* line 47, ../../app/assets/stylesheets/dashboard.css.scss */
 .navbar-inverse .brand {
   color: #fff;
   font-size: 18px;
 }
-/* line 46, ../../app/assets/stylesheets/dashboard.css.scss */
+/* line 52, ../../app/assets/stylesheets/dashboard.css.scss */
 .navbar-inverse .navbar-inner {
   background-image: none;
   background: url("/assets/debut_dark.png");
@@ -13847,5 +13853,5 @@ body {
   background-color: #fff;
 }
 "pathname"6$root/app/assets/stylesheets/application.css.scss"
-class"BundledAsset"digest"%6b9c13f1c647df724a2607c3756fa83b"lengthiè"
-mtime"2013-02-27T00:24:22-05:00"content_type"text/css"logical_path"application.css"_version"%6776f581a4329e299531e1d52aa59832:@expires_in0:@compressedF:@created_atf1361942670.8708701 ¼V
+class"BundledAsset"digest"%cf5a0e7915c8c6f777f2468e38f3d646"lengthi­è"
+mtime"2013-02-27T13:51:45-05:00"content_type"text/css"logical_path"application.css"_version"%6776f581a4329e299531e1d52aa59832:@expires_in0:@compressedF:@created_atf1361991112.3174 PH

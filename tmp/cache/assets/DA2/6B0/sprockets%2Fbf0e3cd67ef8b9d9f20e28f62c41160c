@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@value"Eì{"required_assets_digest"%d06a9354221e71cc6d3b1082a3b1d1ef"source"ðê/*
+o: ActiveSupport::Cache::Entry	:@value"ìì{"required_assets_digest"%6d87d0d9398ba7b960ebea3e08747cee"source"—ë/*
  * Bootstrap v2.3.0
  *
  * Copyright 2012 Twitter, Inc
@@ -6820,17 +6820,23 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 .dashboard .top .profile-pic img {
   width: 100%;
 }
+/* line 35, ../../app/assets/stylesheets/dashboard.css.scss */
+.dashboard .top .alert.alert-success.fade.in {
+  margin-top: 19px;
+  width: 7%;
+  margin-left: 281px;
+}
 
-/* line 41, ../../app/assets/stylesheets/dashboard.css.scss */
+/* line 47, ../../app/assets/stylesheets/dashboard.css.scss */
 .navbar-inverse .brand {
   color: #fff;
   font-size: 18px;
 }
-/* line 46, ../../app/assets/stylesheets/dashboard.css.scss */
+/* line 52, ../../app/assets/stylesheets/dashboard.css.scss */
 .navbar-inverse .navbar-inner {
   background-image: none;
   background: url("/assets/debut_dark.png");
 }
 "pathname"4$root/app/assets/stylesheets/dashboard.css.scss"
-class"BundledAsset"digest"%e9f05513529e91ce174a586e4d516a33"lengthiðê"
-mtime"2013-02-27T00:24:22-05:00"content_type"text/css"logical_path"dashboard.css"_version"%6776f581a4329e299531e1d52aa59832:@expires_in0:@compressedF:@created_atf1361942670.931776 ¢8
+class"BundledAsset"digest"%30c884b40183b8ebfe1ab0d3c2f6f6a0"lengthi—ë"
+mtime"2013-02-27T13:51:45-05:00"content_type"text/css"logical_path"dashboard.css"_version"%6776f581a4329e299531e1d52aa59832:@expires_in0:@compressedF:@created_atf1361991112.3363359 †‡

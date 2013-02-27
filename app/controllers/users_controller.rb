@@ -47,6 +47,7 @@ def follow
   user = User.find(params[:user])
   current_user.follow!(user)
   redirect_to :back
+  flash[:success] = "Followed!"
 end
 
 def unfollow
@@ -54,5 +55,6 @@ def unfollow
   user = User.find(params[:user])
   current_user.unfollow!(user)
   redirect_to :back
+  flash[:success] = "Unfollwed!"
   end
 end

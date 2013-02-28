@@ -33,8 +33,9 @@
 		<br>
 		<% if @user.followers(User).count > 0 %>
 	   <%= link_to "Followers", followers_users_path(:user => @user)%>
+	  <% end %>
+	  <% if @user.followees(User).count > 0 %>
 	   <%= link_to "Following", following_users_path(:user => @user)%>
-	<% else %>
 	  <% end %>
 	  <br>
 		<button type="button" class="btn btn-inverse" disabled>Followers: <%= @user.followers(User).count %></button>

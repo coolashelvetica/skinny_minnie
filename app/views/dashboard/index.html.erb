@@ -1,14 +1,33 @@
 <div class="container">
 	<div class="dashboard">
+		<p>Username: <%= current_user.username %></p>
 		<div class="top clearfix">
 		<div class="profile-pic pull-left">
 				<img src="/assets/nopicture.jpg">
 		</div>
+		
+
+	<p>Name: <%= current_user.first_name %> <%= current_user.last_name %> </p>
+	<p>Email: <%= current_user.email %></p>
+	<p>Current Weight: <%= current_user.current_weight %></p>
+	<p>Goal Weight: <%= current_user.goal_weight %></p>
+
+	
+
+		</div>
+		<br>
+		<% if current_user.followers(User).count > 0 %>
+	   <%= link_to "Followers", followers_users_path(:user => current_user)%>
+	  <% end %>
+	  <% if current_user.followees(User).count > 0 %>
+	   <%= link_to "Following", following_users_path(:user => current_user)%>
+	  <% end %>
+	  <br>
 		<button type="button" class="btn btn-inverse" disabled>Followers: <%= current_user.followers(User).count %></button>
 
-
-		
-		
-		</div>
 	</div>
 </div>
+
+
+
+

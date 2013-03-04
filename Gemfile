@@ -21,7 +21,7 @@ group :assets do
   gem 'country_select'
   gem 'devise'
   gem 'socialization'
-  gem 'spree', '~> 1.3.2'
+  gem 'cancan'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 

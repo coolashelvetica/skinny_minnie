@@ -1,4 +1,8 @@
 SkinnyMinnie::Application.routes.draw do
+  get "cart/index"
+
+  get "cart/show"
+
   get "product/index"
 
   get "product/show"
